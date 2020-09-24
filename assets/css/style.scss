@@ -1,0 +1,53 @@
+---
+---
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width:100vw;
+  max-width: 100vw;
+  font-family: Verdana;
+  background-color: black;
+  * {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+  header {
+    background-color: black;
+    height:100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    #text {
+      width: 100vw;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      transform: translate(0,-50%);
+      padding: 0;
+
+      #name { /* Name */
+        color: white;
+        font-size: 72px;
+      }
+      #motto { /* Above Name */
+        color: crimson;
+        font-size: 22px;
+        font-weight: lighter;
+      }
+      #sub { /* Below Name */
+        color: lightgrey;
+        font-size: 28px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
